@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <rect width="200" height="200" rx="32" fill="#0e0e0e"/>
+  <rect width="200" height="200" rx="32" fill="#7eb8d4" fill-opacity="0.05"/>
+  <!-- Connector lines -->
+  <line x1="100" y1="100" x2="100" y2="34"  stroke="#7eb8d4" stroke-opacity="0.25" stroke-width="1"/>
+  <line x1="100" y1="100" x2="157" y2="66"  stroke="#7eb8d4" stroke-opacity="0.25" stroke-width="1"/>
+  <line x1="100" y1="100" x2="157" y2="134" stroke="#7eb8d4" stroke-opacity="0.25" stroke-width="1"/>
+  <line x1="100" y1="100" x2="100" y2="166" stroke="#7eb8d4" stroke-opacity="0.25" stroke-width="1"/>
+  <line x1="100" y1="100" x2="43"  y2="134" stroke="#7eb8d4" stroke-opacity="0.25" stroke-width="1"/>
+  <line x1="100" y1="100" x2="43"  y2="66"  stroke="#7eb8d4" stroke-opacity="0.25" stroke-width="1"/>
+  <!-- Cross-links between satellite nodes -->
+  <line x1="100" y1="34"  x2="157" y2="66"  stroke="#7eb8d4" stroke-opacity="0.12" stroke-width="1"/>
+  <line x1="157" y1="66"  x2="157" y2="134" stroke="#7eb8d4" stroke-opacity="0.12" stroke-width="1"/>
+  <line x1="157" y1="134" x2="100" y2="166" stroke="#7eb8d4" stroke-opacity="0.12" stroke-width="1"/>
+  <line x1="100" y1="166" x2="43"  y2="134" stroke="#7eb8d4" stroke-opacity="0.12" stroke-width="1"/>
+  <line x1="43"  y1="134" x2="43"  y2="66"  stroke="#7eb8d4" stroke-opacity="0.12" stroke-width="1"/>
+  <line x1="43"  y1="66"  x2="100" y2="34"  stroke="#7eb8d4" stroke-opacity="0.12" stroke-width="1"/>
+  <!-- Satellite nodes -->
+  <circle cx="100" cy="34"  r="6" fill="#7eb8d4" fill-opacity="0.55"/>
+  <circle cx="157" cy="66"  r="6" fill="#7eb8d4" fill-opacity="0.55"/>
+  <circle cx="157" cy="134" r="6" fill="#7eb8d4" fill-opacity="0.55"/>
+  <circle cx="100" cy="166" r="6" fill="#7eb8d4" fill-opacity="0.55"/>
+  <circle cx="43"  cy="134" r="6" fill="#7eb8d4" fill-opacity="0.55"/>
+  <circle cx="43"  cy="66"  r="6" fill="#7eb8d4" fill-opacity="0.55"/>
+  <!-- Central node -->
+  <circle cx="100" cy="100" r="14" fill="#7eb8d4" fill-opacity="0.18" stroke="#7eb8d4" stroke-opacity="0.6" stroke-width="1.5"/>
+  <circle cx="100" cy="100" r="5"  fill="#7eb8d4"/>
+</svg>

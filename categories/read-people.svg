@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <rect width="200" height="200" rx="32" fill="#0e0e0e"/>
+  <rect width="200" height="200" rx="32" fill="#a8c79d" fill-opacity="0.05"/>
+  <!-- Outer ring -->
+  <circle cx="100" cy="100" r="80" fill="none" stroke="#a8c79d" stroke-opacity="0.14" stroke-width="1"/>
+  <!-- Middle ring -->
+  <circle cx="100" cy="100" r="58" fill="none" stroke="#a8c79d" stroke-opacity="0.25" stroke-width="1.5"/>
+  <!-- Inner ring -->
+  <circle cx="100" cy="100" r="34" fill="none" stroke="#a8c79d" stroke-opacity="0.5" stroke-width="2"/>
+  <!-- Core fill -->
+  <circle cx="100" cy="100" r="11" fill="#a8c79d" fill-opacity="0.4"/>
+  <!-- Dot -->
+  <circle cx="100" cy="100" r="4" fill="#a8c79d"/>
+  <!-- Crosshairs top/bottom -->
+  <line x1="100" y1="8"   x2="100" y2="56"  stroke="#a8c79d" stroke-opacity="0.35" stroke-width="1"/>
+  <line x1="100" y1="144" x2="100" y2="192" stroke="#a8c79d" stroke-opacity="0.35" stroke-width="1"/>
+  <!-- Crosshairs left/right -->
+  <line x1="8"   y1="100" x2="56"  y2="100" stroke="#a8c79d" stroke-opacity="0.35" stroke-width="1"/>
+  <line x1="144" y1="100" x2="192" y2="100" stroke="#a8c79d" stroke-opacity="0.35" stroke-width="1"/>
+</svg>
